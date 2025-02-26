@@ -1,6 +1,6 @@
-//push()
-//pop()
-//shift()
+//push()        //find()
+//pop()         //forEach()
+//shift()       //map()
 //unshift()
 //slice()
 //splice()
@@ -29,6 +29,24 @@ let names = ["alamgir","kamal","sameer","asif","ashik"];
 names.splice(1,2,"new names add");
 console.log(names);
 
+
+let name = [10,20,25,50];
+const xx = name.find((x)=>{
+    if(x<20){
+        console.log(x);
+    }
+})
+
+// const x = name.find(item=>item>20);
+// console.log(x);
+
+
+let a = [10,20,30,40,50,60];
+
+a.forEach((x)=>{
+        console.log(x);
+        
+})
 
 
 

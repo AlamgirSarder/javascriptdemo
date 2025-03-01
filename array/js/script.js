@@ -61,3 +61,11 @@ const number = [10,20,30,40,50,60];
 const newNumber = number.map((eachnumber)=>{
 console.log(eachnumber*2);
 });
+
+
+
+const add = () =>{
+    console.log(`welcome arrow function`);
+    
+}
+add();

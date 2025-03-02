@@ -87,3 +87,9 @@ console.log(len);
 names = "my name is Alamgir Sarder";
 len = names.split(' ').join("-");
 console.log(len);
+
+
+
+
+
+const myname = "Alamgir Sarder";

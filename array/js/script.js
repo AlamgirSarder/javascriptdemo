@@ -14,6 +14,8 @@
     12. concat()
 
     13. array.forEach()
+    14. map()
+
 
 
 
@@ -98,4 +100,27 @@ console.log(maxx);
 let nnumber = [23,45,12,42,24,21];
 nnumber.forEach((x)=>{
     console.log(x);
+})
+
+
+let student = [{
+    name: "Alamgir",
+    age: 25,
+    address:{
+        district: "Savar",
+        division: "Dhaka"
+    }
+},
+{name: "Kamal",
+    age: 50,
+},
+{
+    name: "Sameer",
+    age:60
+}
+]
+
+student.map((item)=>{
+    console.log(item.name);
+    
 })

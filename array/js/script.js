@@ -10,7 +10,7 @@
     8. reverse()
     9. copyWithin()
     10. toString()
-    11. 
+    11. join()
 
 
 
@@ -76,3 +76,4 @@ let fruits = ["Banana","Orange","Apple","Mango"];
 console.log(fruits);
 
 console.log(fruits.toString());
+console.log(fruits.join(" * "));

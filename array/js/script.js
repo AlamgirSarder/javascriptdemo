@@ -11,6 +11,7 @@
     9. copyWithin()
     10. toString()
     11. join()
+    12. concat()
 
 
 
@@ -77,3 +78,9 @@ console.log(fruits);
 
 console.log(fruits.toString());
 console.log(fruits.join(" * "));
+
+
+let country1 = ["America","Japan"];
+let country2 = ["India","Korea"];
+let totalcountry = country1.concat(country2);
+console.log(totalcountry);

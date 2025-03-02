@@ -13,6 +13,8 @@
     11. join()
     12. concat()
 
+    13. array.forEach()
+
 
 
 
@@ -81,6 +83,19 @@ console.log(fruits.join(" * "));
 
 
 let country1 = ["America","Japan"];
-let country2 = ["India","Korea"];
+let country2 = ["India","Korea","Japan"];
 let totalcountry = country1.concat(country2);
 console.log(totalcountry);
+
+
+let array = [23,53,25,252,1200,233,23,42,800];
+let maxx = Math.max.apply(null,array);
+console.log(maxx);
+
+
+//Array Iteration
+
+let nnumber = [23,45,12,42,24,21];
+nnumber.forEach((x)=>{
+    console.log(x);
+})

@@ -16,6 +16,9 @@
     13. array.forEach()
     14. map()
     15. filter()
+    16. indexOf()
+    17. find()
+    18. reduce()
 
 
 
@@ -133,3 +136,21 @@ nnumber.filter((x)=>{
     
    }
 })
+
+
+nnumber = [23,2,45,124,6,7,11,9,42,24,21];
+
+console.log(nnumber.indexOf(23)+1);
+
+
+
+nnumber = [1,2,3,4,5];
+
+// let res = nnumber.reduce((x,y) => x+y,sum);
+let res = nnumber.reduce((x,y) =>{
+    return x + y;
+},2);
+
+console.log(res);
+
+

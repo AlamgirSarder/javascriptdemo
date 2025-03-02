@@ -15,6 +15,7 @@
 
     13. array.forEach()
     14. map()
+    15. filter()
 
 
 
@@ -123,4 +124,12 @@ let student = [{
 student.map((item)=>{
     console.log(item.name);
     
+})
+
+ nnumber = [23,2,45,124,6,7,11,9,42,24,21];
+nnumber.filter((x)=>{
+   if(x<10){
+    console.log(x);
+    
+   }
 })

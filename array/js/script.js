@@ -9,6 +9,8 @@
     7. sort()
     8. reverse()
     9. copyWithin()
+    10. toString()
+    11. 
 
 
 
@@ -70,3 +72,7 @@ let x = [1,2,3,4,5,6,7,8,9];
 x.copyWithin(4,0,3);
 console.log(x);
 
+let fruits = ["Banana","Orange","Apple","Mango"];
+console.log(fruits);
+
+console.log(fruits.toString());

@@ -8,6 +8,7 @@
     6. slice()
     7. sort()
     8. reverse()
+    9. copyWithin()
 
 
 
@@ -55,3 +56,17 @@ console.log(names);
 
 names.reverse();
 console.log(names);
+
+//number sorting
+
+let numbers = [2,5,12,50,3,25,1,49];
+numbers.sort((x,y)=>{
+    return x-y;
+});
+console.log(numbers);
+
+
+let x = [1,2,3,4,5,6,7,8,9];
+x.copyWithin(4,0,3);
+console.log(x);
+

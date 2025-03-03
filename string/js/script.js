@@ -97,3 +97,6 @@ console.log(namess.length);
 
 
 const myname = "Alamgir Sarder";
+
+
+const bb = "BAngladesh";

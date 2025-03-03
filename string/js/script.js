@@ -87,3 +87,7 @@ console.log(len);
 names = "my name is Alamgir Sarder";
 len = names.split(' ').join("-");
 console.log(len);
+
+
+let namess = "Bangladesh";
+console.log(namess.length);

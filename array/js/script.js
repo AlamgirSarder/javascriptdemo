@@ -157,5 +157,30 @@ console.log(res);
 
 
 
-let newnumber =  [2,4,5,1,7,9,8];
-console.log(newnumber);
+
+
+let m = [23,43,53,23,88,1,2,4,3];
+// console.log(m.sort());
+let q = m.toSorted((a,b)=>{
+        return a-b;
+})
+
+console.log(q);
+
+console.log(m);
+
+
+
+
+
+
+
+// const asif = "Asif Kamal Raju";
+// const newasif = asif.split(" ").join("-");
+// console.log(newasif);
+
+
+
+const asif = "Asif-Kamal-Raju";
+const newasif = asif.split("-").join(" ");
+console.log(newasif);

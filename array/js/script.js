@@ -81,6 +81,7 @@ let x = [1,2,3,4,5,6,7,8,9];
 x.copyWithin(4,0,3);
 console.log(x);
 
+
 let fruits = ["Banana","Orange","Apple","Mango"];
 console.log(fruits);
 
@@ -154,3 +155,7 @@ let res = nnumber.reduce((x,y) =>{
 console.log(res);
 
 
+
+
+let newnumber =  [2,4,5,1,7,9,8];
+console.log(newnumber);

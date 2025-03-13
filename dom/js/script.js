@@ -7,7 +7,7 @@ btn.addEventListener("click",()=>{
     if(newinput == ""){
         console.log("empty");
     }else{
-        console.log("Welcome to ");
+        console.log("Not Empty");
     }   
 })
 

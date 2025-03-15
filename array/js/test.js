@@ -52,6 +52,8 @@ console.log(a);
 
 let newa= a.slice(1,3);
 console.log(newa);
+console.log(a);
 
-
+a.splice(1,2,"Dhaka","Khulna");
+console.log(a);
 

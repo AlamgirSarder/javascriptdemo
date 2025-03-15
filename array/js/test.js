@@ -33,3 +33,5 @@ console.log(num);
 num.shift();
 console.log(num);
 
+num.unshift(1);
+console.log(num);

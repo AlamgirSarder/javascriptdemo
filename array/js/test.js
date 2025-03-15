@@ -44,6 +44,14 @@ console.log(y);
 
 
 
-let a = ["Alamgir","Asif","Sameer"];
+let a = ["Alamgir","Asif","Sameer","Depok"];
 let res = a.join(" ");
 console.log(res);
+
+console.log(a);
+
+let newa= a.slice(1,3);
+console.log(newa);
+
+
+

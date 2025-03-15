@@ -5,10 +5,10 @@
     2. reverse()*        10. splice()            18. findIndex()
     3. pop()*            11. isArray()           19. includes()
     4. push()*           12. indexOf()           20. some()
-    5. shift()           13. lastIndexOf()       21. forEach()
-    6. unshift()         14. entries()           22. toString()
-    7. concat()          15. every()             23. valueOf()
-    8. join()            16. filter              23. fill()
+    5. shift()*          13. lastIndexOf()       21. forEach()
+    6. unshift()*        14. entries()           22. toString()
+    7. concat()*         15. every()             23. valueOf()
+    8. join()*           16. filter              23. fill()
 
 */
 
@@ -35,3 +35,15 @@ console.log(num);
 
 num.unshift(1);
 console.log(num);
+
+
+
+let x = ["Alamgir","Asift","Sameer"];
+let y = x.concat("Dhaka","Khulna");
+console.log(y);
+
+
+
+let a = ["Alamgir","Asif","Sameer"];
+let res = a.join(" ");
+console.log(res);

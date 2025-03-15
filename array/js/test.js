@@ -10,7 +10,13 @@
     7. concat()          15. every()             23. valueOf()
     8. join()            16. filter              23. fill()
 
-
-
-
 */
+
+
+let arr = [2,4,1,5,56,7,8,3,9,];
+let newarr = arr.sort((a,b)=>{
+return a-b;
+});
+console.log(newarr);
+console.log(arr);
+

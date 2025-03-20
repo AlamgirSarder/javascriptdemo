@@ -17,6 +17,6 @@ for(let i = 1; i<=10; i++){
 }
 
 
-
-alert("Alamgir Sarder");
+const btns = document.createElement("button");
+console.log(btgns);
 

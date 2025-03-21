@@ -20,3 +20,10 @@ for(let i = 1; i<=10; i++){
 const btns = document.createElement("button");
 console.log(btgns);
 
+
+const add = (x) =>{
+    return x * 3;
+}
+
+let result = add(5);
+console.log(result);

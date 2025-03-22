@@ -1,29 +1,31 @@
-const input = document.querySelector(".input");
-const btn = document.querySelector(".btn");
+const addTodo = () => {
+    const todoInput = document.getElementById("todoInput");
+    if (todoInput.value == "") {
+        alert ("please enter todolist")
+        
+    }else {
+        console.log(todoInput.value);
+
+        const todoList = document.getElementById("todoList");
+        
+        const newli= document.createElement("li");
+        
+        newli.innerHTML = todoInput.value;
+        todoList.appendChild(newli);
+        todoInput.value="";
+        
+    }
+
+};
 
 
-btn.addEventListener("click",()=>{
-    const newinput = input.value;
-    if(newinput == ""){
-        console.log("empty");
-    }else{
-        console.log("Not Empty");
-    }   
-})
 
-for(let i = 1; i<=10; i++){
-    console.log(i);
+
+setTimeout(() => {
     
-}
 
 
-const btns = document.createElement("button");
-console.log(btgns);
+    console.log("welcome");
+    
 
-
-const add = (x) =>{
-    return x * 3;
-}
-
-let result = add(5);
-console.log(result);
+}, 3000);

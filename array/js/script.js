@@ -184,3 +184,6 @@ console.log(m);
 const asif = "Asif-Kamal-Raju";
 const newasif = asif.split("-").join(" ");
 console.log(newasif);
+
+
+console.log("Array Method");

@@ -17,6 +17,8 @@ let arr = [2,4,1,5,56,7,8,3,9,];
 let newarr = arr.sort((a,b)=>{
 return a-b;
 });
+
+arr.
 console.log(newarr);
 console.log(arr);
 arr.reverse();

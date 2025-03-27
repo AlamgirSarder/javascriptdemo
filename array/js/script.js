@@ -186,6 +186,3 @@ const newasif = asif.split("-").join(" ");
 console.log(newasif);
 
 
-
-let num = [44,23,24,12,24];
-

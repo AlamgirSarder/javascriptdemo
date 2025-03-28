@@ -186,3 +186,5 @@ const newasif = asif.split("-").join(" ");
 console.log(newasif);
 
 
+let xx = [3,4,5,6,7];
+xx.reduce()

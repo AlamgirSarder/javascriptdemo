@@ -34,8 +34,10 @@ console.log("Alamgir");
 
 
 let arr = [ 12,13,43,15,34];
-console.log(arr);
 
+arr.sort((a,b)=>{
+    return a - b;
+})
 
 
 

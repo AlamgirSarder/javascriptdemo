@@ -41,3 +41,6 @@ arr.sort((a,b)=>{
 
 
 
+console.log("welcome");
+
+

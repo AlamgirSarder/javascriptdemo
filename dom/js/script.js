@@ -41,6 +41,8 @@ arr.sort((a,b)=>{
 
 
 
-console.log("welcome");
+function demo(){
+    return 20;
+}
 
 

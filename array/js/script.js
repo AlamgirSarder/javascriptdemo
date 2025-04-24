@@ -187,4 +187,3 @@ const newasif = asif.split("-").join(" ");
 console.log(newasif);
 
 
-let xyz = [12,13,14,15,16,17];

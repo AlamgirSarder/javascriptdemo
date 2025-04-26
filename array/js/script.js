@@ -171,7 +171,6 @@ console.log(q);
 console.log(m);
 
 
-console.log("welcome");
 
 
 
@@ -188,3 +187,4 @@ const newasif = asif.split("-").join(" ");
 console.log(newasif);
 
 
+console.log("Alamgir Sarder");

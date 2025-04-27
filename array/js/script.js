@@ -187,4 +187,8 @@ const newasif = asif.split("-").join(" ");
 console.log(newasif);
 
 
-console.log("Alamgir Sarder");
+let xx = [1,2,3,4,5,6];
+xx.map((x)=>{
+    console.log(x);
+    
+})

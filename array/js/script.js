@@ -187,7 +187,6 @@ const newasif = asif.split("-").join(" ");
 console.log(newasif);
 
 
-const person = {
-    name: "Alamgir Sarder",
-    age:25,
-}
+
+
+console.log("Welcome");

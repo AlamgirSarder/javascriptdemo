@@ -187,6 +187,6 @@ const newasif = asif.split("-").join(" ");
 console.log(newasif);
 
 
+let num = [12,14,16,18,30]
+console.log(num);
 
-
-console.log("Welcome");

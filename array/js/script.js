@@ -187,6 +187,4 @@ const newasif = asif.split("-").join(" ");
 console.log(newasif);
 
 
-let promiseset = new Promise((resolve, reject)=>{
-
-})
+console.log("slice");

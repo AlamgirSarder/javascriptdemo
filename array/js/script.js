@@ -186,5 +186,7 @@ const asif = "Asif-Kamal-Raju";
 const newasif = asif.split("-").join(" ");
 console.log(newasif);
 
-
-console.log("slice");
+const show = ()=> {
+    console.log();
+    
+}
